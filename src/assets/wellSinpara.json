@@ -1,0 +1,308 @@
+{
+  "ScatterData":[
+    {
+      "H/A": "A",
+      "Team": "Torino",
+      "xG conceded": 0.62,
+      "Shot conceded": 10,
+      "Result": "3"
+    },
+    {
+      "H/A": "H",
+      "Team": "Atalanta",
+      "xG conceded": 2.35,
+      "Shot conceded": 23,
+      "Result": "1"
+    },
+    {
+      "H/A": "A",
+      "Team": "Milan",
+      "xG conceded": 1.89,
+      "Shot conceded": 26,
+      "Result": "0"
+    },
+    {
+      "H/A": "H",
+      "Team": "Chievo",
+      "xG conceded": 1.4,
+      "Shot conceded": 13,
+      "Result": "1"
+    },
+    {
+      "H/A": "A",
+      "Team": "Bologna",
+      "xG conceded": 1.02,
+      "Shot conceded": 11,
+      "Result": 0
+    },
+    {
+      "H/A": "H",
+      "Team": "Frosinone",
+      "xG conceded": 0.56,
+      "Shot conceded": 11,
+      "Result": "3"
+    },
+    {
+      "H/A": "H",
+      "Team": "Lazio",
+      "xG conceded": 1.01,
+      "Shot conceded": 16,
+      "Result": "3"
+    },
+    {
+      "H/A": "A",
+      "Team": "Empoli",
+      "xG conceded": 1.56,
+      "Shot conceded": 20,
+      "Result": "3"
+    },
+    {
+      "H/A": "H",
+      "Team": "Spal",
+      "xG conceded": 1.8,
+      "Shot conceded": 6,
+      "Result": "0"
+    },
+    {
+      "H/A": "A",
+      "Team": "Napoli",
+      "xG conceded": 2.49,
+      "Shot conceded": 26,
+      "Result": "1"
+    },
+    {
+      "H/A": "A",
+      "Team": "Fiorentina",
+      "xG conceded": 1.3,
+      "Shot conceded": 14,
+      "Result": "1"
+    },
+    {
+      "H/A": "H",
+      "Team": "Sampdoria",
+      "xG conceded": 1.2,
+      "Shot conceded": 8,
+      "Result": "3"
+    },
+    {
+      "H/A": "A",
+      "Team": "Udinese",
+      "xG conceded": 1.22,
+      "Shot conceded": 9,
+      "Result": "0"
+    },
+    {
+      "H/A": "H",
+      "Team": "Inter",
+      "xG conceded": 2.68,
+      "Shot conceded": 17,
+      "Result": "1"
+    },
+    {
+      "H/A": "A",
+      "Team": "Cagliari",
+      "xG conceded": 2.1,
+      "Shot conceded": 16,
+      "Result": "1"
+    },
+    {
+      "H/A": "H",
+      "Team": "Genoa",
+      "xG conceded": 1.84,
+      "Shot conceded": 15,
+      "Result": "3"
+    }
+  ],
+  "pieChartData": [
+    {
+      "type": "孔隙度",
+      "value": 15
+    },
+    {
+      "type": "油层厚度",
+      "value": 20
+    },
+    {
+      "type": "油层湿度",
+      "value": 15
+    },
+    {
+      "type": "油层粘度",
+      "value": 28
+    },
+    {
+      "type": "地质倾角",
+      "value": 22
+    }
+  ],
+  "predictData": [
+    {
+      "kind": "孔隙度",
+      "time": "8.00",
+      "number": 120
+    },  {
+      "kind": "孔隙度",
+      "time": "9.00",
+      "number": 108
+    },
+    {
+      "kind": "孔隙度",
+      "time": "10.00",
+      "number": 133
+    },
+    {
+      "kind": "孔隙度",
+      "time": "11.00",
+      "number": 144
+    },
+    {
+      "kind": "孔隙度",
+      "time": "12.00",
+      "number": 150
+    },
+    {
+      "kind": "孔隙度",
+      "time": "13.00",
+      "number": 90
+    },
+    {
+      "kind": "孔隙度",
+      "time": "14.00",
+      "number": 88
+    },
+    {
+      "kind": "油层厚度",
+      "time": "8.00",
+      "number": 155
+    },  {
+      "kind": "油层厚度",
+      "time": "9.00",
+      "number":180
+    },
+    {
+      "kind": "油层厚度",
+      "time": "10.00",
+      "number": 199
+    },
+    {
+      "kind": "油层厚度",
+      "time": "11.00",
+      "number": 160
+    },
+    {
+      "kind": "油层厚度",
+      "time": "12.00",
+      "number": 188
+    },
+    {
+      "kind":"油层厚度",
+      "time": "13.00",
+      "number": 190
+    },
+    {
+      "kind":"油层厚度",
+      "time": "14.00",
+      "number": 166
+    }, {
+      "kind": "油层湿度",
+      "time": "8.00",
+      "number": 210
+    },  {
+      "kind":  "油层湿度",
+      "time": "9.00",
+      "number": 250
+    },
+    {
+      "kind":  "油层湿度",
+      "time": "10.00",
+      "number": 244
+    },
+    {
+      "kind": "油层湿度",
+      "time": "11.00",
+      "number": 227
+    },
+    {
+      "kind":  "油层湿度",
+      "time": "12.00",
+      "number": 245
+    },
+    {
+      "kind":  "油层湿度",
+      "time": "13.00",
+      "number": 247
+    },
+    {
+      "kind":  "油层湿度",
+      "time": "14.00",
+      "number": 208
+    }, {
+      "kind":  "油层粘度",
+      "time": "8.00",
+      "number": 259
+    },  {
+      "kind": "油层粘度",
+      "time": "9.00",
+      "number": 268
+    },
+    {
+      "kind": "油层粘度",
+      "time": "10.00",
+      "number": 290
+    },
+    {
+      "kind": "油层粘度",
+      "time": "11.00",
+      "number": 288
+    },
+    {
+      "kind": "油层粘度",
+      "time": "12.00",
+      "number": 278
+    },
+    {
+      "kind": "油层粘度",
+      "time": "13.00",
+      "number":267
+    },
+    {
+      "kind": "油层粘度",
+      "time": "14.00",
+      "number": 288
+    }, {
+      "kind": "地质倾角",
+      "time": "8.00",
+      "number": 300
+    },  {
+      "kind": "地质倾角",
+      "time": "9.00",
+      "number": 321
+    },
+    {
+      "kind": "地质倾角",
+      "time": "10.00",
+      "number": 322
+    },
+    {
+      "kind": "地质倾角",
+      "time": "11.00",
+      "number": 333
+    },
+    {
+      "kind": "地质倾角",
+      "time": "12.00",
+      "number": 366
+    },
+    {
+      "kind": "地质倾角",
+      "time": "13.00",
+      "number": 300
+    },
+    {
+      "kind": "地质倾角",
+      "time": "14.00",
+      "number": 344
+    }
+  ]
+
+}
