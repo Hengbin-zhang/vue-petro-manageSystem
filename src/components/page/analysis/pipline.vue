@@ -3,17 +3,31 @@
 		<div class="crumbs">
 			<el-breadcrumb separator="/">
 				<el-breadcrumb-item>
-					<span style="color: #FFFFFF;margin-left: 5px;">工况识别</span>
+					<span style="margin-left: 5px;">管线致因分析</span>
 				</el-breadcrumb-item>
 			</el-breadcrumb>
 		</div>
 		<div class="container">
-			<div class="handle-box"></div>
+			
 		</div>
 	</div>
 </template>
 
 <script>
+	import * as echarts from 'echarts';
+	export default{
+		data(){
+			return{
+				
+			}
+		},
+		mounted(){
+			
+		},
+		methods:{
+			
+		}
+	}
 </script>
 
 <style>

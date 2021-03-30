@@ -142,31 +142,64 @@ export default {
 					]
 				},
 				{
-				    icon: 'el-icon-lx-global',
-				    index: 'i18n',
-				    title: '正常工况'
-				},
-				{
 				    icon: 'el-icon-rank',
 				    index: '6',
-				    title: '异常工况',
+				    title: '异常工况识别',
 				    subs: [
 				        {
-				            index: 'typical',
-				            title: '典型设备'
+				            index: 'wellIdentify',
+				            title: '油井工况识别'
 				        },
 				        {
-				            index: 'identity',
-				            title: '工况识别'
+				            index: 'piplineIdentify',
+				            title: '管线工况识别'
 				        },
 						{
-						    index: 'analysis',
-						    title: '致因分析'
+						    index: 'minfordIdentify',
+						    title: '管汇工况识别'
 						}
 				    ]
 				},
 				{
 				    icon: 'el-icon-s-goods',
+				    index: 'analysis',
+				    title: '反向致因分析',
+					subs: [
+					    {
+					        index: 'wellAnalysis',
+					        title: '油井致因分析'
+					    },
+					    {
+					        index: 'piplineAnalysis',
+					        title: '管线致因分析'
+					    },
+						{
+						    index: 'minfordAnalysis',
+						    title: '管汇致因分析'
+						}
+					]
+				},
+				{
+				    icon: 'el-icon-s-claim',
+				    index: 'typical',
+				    title: '典型工况对比',
+					subs: [
+					    {
+					        index: 'wellTypical',
+					        title: '油井典型工况'
+					    },
+					    {
+					        index: 'piplineTypical',
+					        title: '管线典型工况'
+					    },
+						{
+						    index: 'minfordTypical',
+						    title: '管汇典型工况'
+						}
+					]
+				},
+				{
+				    icon: 'el-icon-setting',
 				    index: 'dataManage',
 				    title: '数据管理'
 				},

@@ -94,22 +94,58 @@ export default new Router({
 				    meta: { title: '管汇多参数分析' }
 				},
 				{
+				    // 拖拽Dialog组件
+				    path: '/wellIdentify',
+				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/identify/well.vue'),
+				    meta: { title: '油井工况识别' }
+				},
+				{
+				    // 拖拽Dialog组件
+				    path: '/piplineIdentify',
+				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/identify/pipline.vue'),
+				    meta: { title: '管线工况识别' }
+				},
+				{
+				    // 拖拽Dialog组件
+				    path: '/minfordIdentify',
+				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/identify/minford.vue'),
+				    meta: { title: '管汇工况识别' }
+				},
+				{
 				    // 拖拽列表组件
-				    path: '/typical',
-				    component: () => import(/* webpackChunkName: "drag" */ '../components/page/abnormalState/DragList.vue'),
-				    meta: { title: '典型设备' }
+				    path: '/wellAnalysis',
+				    component: () => import(/* webpackChunkName: "drag" */ '../components/page/analysis/well.vue'),
+				    meta: { title: '油井致因分析' }
+				},
+				{
+				    // 拖拽列表组件
+				    path: '/piplineAnalysis',
+				    component: () => import(/* webpackChunkName: "drag" */ '../components/page/analysis/pipline.vue'),
+				    meta: { title: '管线致因分析' }
+				},
+				{
+				    // 拖拽列表组件
+				    path: '/minfordAnalysis',
+				    component: () => import(/* webpackChunkName: "drag" */ '../components/page/analysis/minford.vue'),
+				    meta: { title: '管汇致因分析' }
 				},
 				{
 				    // 拖拽Dialog组件
-				    path: '/identity',
-				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/abnormalState/stateIdentify.vue'),
-				    meta: { title: '工况识别' }
+				    path: '/wellTypical',
+				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/typical/well.vue'),
+				    meta: { title: '油井典型工况' }
 				},
 				{
 				    // 拖拽Dialog组件
-				    path: '/analysis',
-				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/abnormalState/DragDialog.vue'),
-				    meta: { title: '致因分析' }
+				    path: '/piplineTypical',
+				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/typical/pipline.vue'),
+				    meta: { title: '管线典型工况' }
+				},
+				{
+				    // 拖拽Dialog组件
+				    path: '/minfordTypical',
+				    component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/typical/minford.vue'),
+				    meta: { title: '管汇典型工况' }
 				},
 				{
 				    path: '/dataManage',
